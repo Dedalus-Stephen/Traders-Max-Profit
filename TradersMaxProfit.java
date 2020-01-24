@@ -2,7 +2,7 @@ public class TradersMaxProfit {
     public static void main(String[] args) {
         int[] arr = {40, 5, 80, 20, 60};
         int n = arr.length;
-        System.out.println(maxProfit(arr, n));
+        System.out.println("Maximum possible profit is " + maxProfit(arr, n) + " $");
     }
 
     private static int maxProfit(int[] prices, int n) {
